@@ -1,4 +1,4 @@
-package com.project.auth_service;
+package com.project.authservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
