@@ -9,19 +9,19 @@ import java.time.LocalDateTime;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-@Schema(description = "Standard API response wrapper envelope")
+@Schema(description = "Standard API response")
 public class GeneralResponse<T> {
 
-    @Schema(description = "Flag indicating operation success status", example = "true")
+    @Schema(description = "Flag indicating operation success status")
     private boolean success;
 
-    @Schema(description = "Descriptive feedback message", example = "Operation completed successfully.")
+    @Schema(description = "Descriptive feedback message")
     private String message;
 
-    @Schema(description = "The target core payload data")
+    @Schema(description = "The target payload data")
     private T data;
 
-    @Schema(description = "Timestamp instance when processing completed")
+    @Schema(description = "Timestamp of the operation execution")
     private LocalDateTime timestamp;
 }
 
