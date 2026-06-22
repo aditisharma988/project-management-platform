@@ -1,4 +1,4 @@
-package com.application.api_gateway;
+package com.application.apigateway;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
